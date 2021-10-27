@@ -9,5 +9,5 @@ read t
 
 i=`expr $p \* $r \* $t`
 i=`expr $i / 100`
-
-echo "The simple interest is :Rs.$i"
+BROWN='\033[0;31m'
+echo "The simple interest is :Rs.${BROWN}$i"
